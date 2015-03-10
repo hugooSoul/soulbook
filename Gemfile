@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'simple_form'
 gem 'devise'
+gem 'gravatarify', '~> 3.0.0'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
