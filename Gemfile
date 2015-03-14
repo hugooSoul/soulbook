@@ -13,6 +13,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'gravatarify', '~> 3.0.0'
 gem 'public_activity'
+gem "auto_html"
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
