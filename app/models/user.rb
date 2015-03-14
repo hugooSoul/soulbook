@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
   end
 
   def pending_friend_requests_to
-    self.inverse_friendships.where(state: "pending")
+    self.friendships.where(state: "pending")
   end
 
   def active_friends
