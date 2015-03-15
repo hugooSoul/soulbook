@@ -6,8 +6,8 @@
     <div class="col-md-5">
   <%= f.error_notification %>
   <div class="form-group">
-    <%= f.input :username, required: true, autofocus: true, input_html: {class: "form-control"} %>
-    <%= f.input :email, required: true, input_html: {class: "form-control"} %>
+    <%= f.input :username, required: true, autofocus: true, label: false, placeholder: "Username", input_html: {class: "form-control"} %>
+    <%= f.input :email, required: true, label: false, placeholder: "Email",  input_html: {class: "form-control"} %>
   </div>
   <div class="form-group">
     <%= f.input :age, input_html: {class: "form-control"} %>
